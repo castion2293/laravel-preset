@@ -1,0 +1,23 @@
+{
+    "name": "laracasts/laravel-preset",
+    "description": "The default Laracasts preset",
+    "keywords": ["laravel", "laravel preset", "laracasts"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "castion2293",
+            "email": "castion2293@yahoo.com.tw"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Laracasts\\LaravelPreset": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Laracasts\\LaravelPreset\\LaracastsServiceProvider"]
+        }
+    }
+}
